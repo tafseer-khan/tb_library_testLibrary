@@ -2,4 +2,4 @@
 
 . /utils/go.sh
 
-build
+build "${FILENAME}"
