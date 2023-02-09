@@ -1,8 +1,12 @@
 package lib
 
-import "math/rand"
+import (
+	"math/rand"
+
+	"github.com/taubyte/go-sdk/event"
+)
 
 //export answer
-func answer() uint32 {
+func answer(e event.Event) uint32 {
 	return rand.Uint32()
 }
