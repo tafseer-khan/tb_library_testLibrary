@@ -1,7 +1,7 @@
 package lib
 
 
-//export Answer
-func Answer() uint32 {
+//export answer
+func answer() uint32 {
 	return 42
 }
