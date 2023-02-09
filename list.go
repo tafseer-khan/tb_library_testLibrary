@@ -1,4 +1,4 @@
-package testlibrary
+package lib
 
 
 //export Answer
